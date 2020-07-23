@@ -16,7 +16,6 @@
   	</dependencies> 
     
     <build>
-    
 		<plugins>
 	    	<plugin>
 	        <groupId>org.apache.maven.plugins</groupId>
@@ -35,22 +34,16 @@
 	      		<executions>
 	      			<execution>
                 		<id>integration-test</id>
-                		
                     	<goals>
                     		<goal>java</goal>
                     	</goals>
-
                     	<phase>test</phase>
-                    	
                     	<configuration>
                     		<mainClass>mypackage.NewClass</mainClass>
                     	</configuration>
-                            
              		</execution>
 	      		</executions>
 	      	</plugin> 
 	    </plugins>
-    
     </build>
-    
 </project>

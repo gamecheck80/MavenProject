@@ -1,3 +1,0 @@
-# MavenProject02
-New maven project
-
